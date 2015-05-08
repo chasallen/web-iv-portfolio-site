@@ -5,3 +5,7 @@ nav li {
 	display:inline;
 	padding:5px;	
 }
+
+ul {
+	list-style-type:none;
+}
