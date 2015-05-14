@@ -9,3 +9,19 @@ nav li {
 ul {
 	list-style-type:none;
 }
+
+header {
+    padding-top: 25px;
+}
+
+section {
+	padding-top: 100px;
+}
+
+.row-pad  {
+	padding-top: 25px;
+}
+
+footer {
+    padding-top: 100px;
+}
