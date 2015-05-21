@@ -3701,13 +3701,14 @@ td {
   margin: 0;
   padding: 0; }
 
-/* Default Link Styles */
+/* Link Styles (Changed) */
 a {
-  color: #008CBA;
+  color: #ffffff;
   line-height: inherit;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #ffffff;
+}
   a img {
     border: none; }
 
