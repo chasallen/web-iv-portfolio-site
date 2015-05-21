@@ -20,7 +20,7 @@ header {
 }
 
 section {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 nav a:hover {
@@ -30,6 +30,7 @@ nav a:hover {
 
 .navbar-padding {
 	padding-top:60px;
+	padding-bottom:60px;
 }
 
 .fade {
@@ -41,6 +42,10 @@ nav a:hover {
 
 .fade:hover {
       opacity: 0.5;
+}
+
+.overlap {
+	margin-bottom: -100px;
 }
 
 /*background color*/
@@ -121,6 +126,10 @@ h1, h2, h3, p {
 .medium-row-pad {
     padding-top: 25px;
 }
+
+.medium-overlap {
+	margin-bottom: -10px;
+}
 	
 	
 }
@@ -131,6 +140,8 @@ h1, h2, h3, p {
     padding-top: 25px;
 }
 
-
+.small-overlap {
+	margin-bottom: -50px;
+}
 
 }
