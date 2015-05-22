@@ -56,10 +56,6 @@ nav a:hover {
 	margin-bottom: -100px;
 }
 
-img {
-	 width:100%;
-}
-
 /*background color*/
 
 .dark-gray-background {
@@ -175,6 +171,37 @@ h1, h2, h3, p {
 
 .small-icon-overlap {
 	margin-bottom: -30px;
+}
+
+.small-maximum-icon-size img {
+	max-width: 40px;
+}
+
+.navigation-button {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 8px;
+	padding-left: 8px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px/25px Lato, Arial, sans-serif;
+    border-radius: 0;
+}
+
+.gray-navigation-button {
+    color: #ffffff;
+    background: #4c4c4e;
+}
+
+.remove-inline-navigation {
+	display:none;
+	padding:5px;	
+	color: #ffffff;
+}
+
 }
 
 }
