@@ -62,7 +62,15 @@ nav a:hover {
 	 background-color: #171212;
 }
 
+/*fonts*/
 
+h1 {
+	font-family: Fjalla One, Lato, Arial, sans-serif;
+}
+
+h2, h3, p {
+	font-family: Lato, Arial, sans-serif;
+}
 
 /*font colors*/
 
@@ -103,7 +111,7 @@ h1, h2, h3, p {
 	padding-left: 8px;
     text-align: center;
     text-decoration: none;
-    font: bold 12px/25px Arial, sans-serif;
+    font: bold 12px/25px Lato, Arial, sans-serif;
     border-radius: 0;
 	-webkit-transition: all 0.15s ease;
     -moz-transition: all 0.15s ease;
