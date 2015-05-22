@@ -11,16 +11,24 @@ ul {
 	list-style-type:none;
 }
 
-header, footer, .row-pad {
-    padding-top: 25px;
-}
-
 header {
+    padding-top: 25px;
+	padding-bottom: 20px;
 	background-span:100%;
 }
 
+footer, .row-pad {
+    padding-top: 25px;
+}
+
+small {
+    text-align: center;
+}
+
+
 section {
 	padding-top: 50px;
+	padding-bottom: 30px;
 }
 
 nav a:hover {
@@ -29,7 +37,7 @@ nav a:hover {
 }
 
 .navbar-padding {
-	padding-top:60px;
+	padding-top:30px;
 	padding-bottom:60px;
 }
 
@@ -46,6 +54,10 @@ nav a:hover {
 
 .overlap {
 	margin-bottom: -100px;
+}
+
+img {
+	 width:100%;
 }
 
 /*background color*/
@@ -138,6 +150,11 @@ h1, h2, h3, p {
 .medium-overlap {
 	margin-bottom: -10px;
 }
+
+.medium-navbar-padding {
+	padding-top:15px;
+	padding-bottom:60px;
+}
 	
 	
 }
@@ -150,6 +167,14 @@ h1, h2, h3, p {
 
 .small-overlap {
 	margin-bottom: -50px;
+}
+
+.small-image-email-icon {
+	max-width: 100px;
+}
+
+.small-icon-overlap {
+	margin-bottom: -30px;
 }
 
 }
