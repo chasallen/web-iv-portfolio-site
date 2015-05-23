@@ -14,7 +14,7 @@ ul {
 header {
     padding-top: 25px;
 	padding-bottom: 20px;
-	background-span:100%;
+	background-color:100%;
 }
 
 footer, .row-pad {
@@ -54,6 +54,17 @@ nav a:hover {
 
 .overlap {
 	margin-bottom: -100px;
+}
+
+.button-alignment img {
+	text-align:right;
+}
+
+/*PROJECT CODING*/
+
+.project-sizes img {
+    width:100%;
+    max-width:300px;
 }
 
 /*background color*/
