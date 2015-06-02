@@ -17,6 +17,12 @@ header {
 	background-color:100%;
 }
 
+.project-header {
+    padding-top: 25px;
+	padding-bottom: 0px;
+	background-color:100%;
+}
+
 footer, .row-pad {
     padding-top: 25px;
 }
@@ -27,13 +33,14 @@ small {
 
 
 section {
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
 nav a:hover {
 	text-decoration:underline;
 	border-bottom:2px solid:#ffffff;
+	color:#ffffff;
 }
 
 .navbar-padding {
@@ -67,6 +74,10 @@ nav a:hover {
     max-width:300px;
 }
 
+.project-padding {
+	padding-top:100px;
+}
+
 /*background color*/
 
 .dark-gray-background {
@@ -91,10 +102,14 @@ h2, h3, p {
 	font-family: Lato, Arial, sans-serif;
 }
 
-/*font colors*/
+/*font colors/line heights*/
 
 h1, h2, h3, p {
 	color: #4c4c4e;
+}
+
+.between-paragraphs {
+	margin-bottom:-5px;
 }
 
 
@@ -144,7 +159,10 @@ h1, h2, h3, p {
     background: #4c4c4e;
 }
 
-
+.gray-video-button:hover {
+    color:#ffffff;
+	background:#000000;
+}
 
 /*social media icons and hover states*/
 
@@ -159,7 +177,7 @@ h1, h2, h3, p {
 }
 
 .medium-navbar-padding {
-	padding-top:15px;
+	padding-top:35px;
 	padding-bottom:60px;
 }
 	
@@ -168,8 +186,27 @@ h1, h2, h3, p {
 
 @media only screen and (max-width: 640px) {
 
+.landing-header {
+    padding-top: 0px;
+	padding-bottom: 0px;
+	background-color:100%;
+}
+
+.landing-section {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
 .small-row-pad {
     padding-top: 25px;
+}
+
+.small-row-project-padding  {
+    padding-top: 130px;
+}
+
+.small-row-work-padding  {
+    padding-top: 20px;
 }
 
 .small-overlap {
@@ -188,18 +225,8 @@ h1, h2, h3, p {
 	max-width: 40px;
 }
 
-.navigation-button {
-    display: inline-block;
-    position: relative;
-    margin: 20px;
-    padding-top: 40px;
-	padding-bottom: 40px;
-	padding-right: 8px;
-	padding-left: 8px;
-    text-align: center;
-    text-decoration: none;
-    font: bold 12px/25px Lato, Arial, sans-serif;
-    border-radius: 0;
+.small-nav {
+	display:block;
 }
 
 .gray-navigation-button {
@@ -207,11 +234,7 @@ h1, h2, h3, p {
     background: #4c4c4e;
 }
 
-.remove-inline-navigation {
-	display:none;
-	padding:5px;	
-	color: #ffffff;
-}
+
 
 }
 
