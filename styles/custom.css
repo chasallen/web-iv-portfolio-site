@@ -164,6 +164,15 @@ h1, h2, h3, p {
 	background:#000000;
 }
 
+/*Other Video Style Implementations*/
+
+iframe {
+	border:0;
+	background-image: url('../images/movie-placeholder.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
 /*social media icons and hover states*/
 
 @media only screen and (max-width: 1025px) {
