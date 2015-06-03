@@ -14,13 +14,13 @@ ul {
 header {
     padding-top: 25px;
 	padding-bottom: 20px;
-	background-color:100%;
+	background-color:#ffffff;
 }
 
 .project-header {
     padding-top: 25px;
 	padding-bottom: 0px;
-	background-color:100%;
+	background-color:#ffffff;
 }
 
 footer, .row-pad {
@@ -39,7 +39,7 @@ section {
 
 nav a:hover {
 	text-decoration:underline;
-	border-bottom:2px solid:#ffffff;
+	border-bottom:2px solid #ffffff;
 	color:#ffffff;
 }
 
@@ -198,7 +198,7 @@ iframe {
 .landing-header {
     padding-top: 0px;
 	padding-bottom: 0px;
-	background-color:100%;
+	background-color:#ffffff;
 }
 
 .landing-section {
@@ -241,8 +241,6 @@ iframe {
 .gray-navigation-button {
     color: #ffffff;
     background: #4c4c4e;
-}
-
 }
 
 }
